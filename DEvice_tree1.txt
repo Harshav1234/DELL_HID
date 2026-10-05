@@ -1,0 +1,249 @@
+
+        +++++++++++++++++ Device Information ++++++++++++++++++
+Device Description       : HID-compliant mouse
+Device Path 1            : \\?\HID#VID_413C&PID_4503&MI_01&Col01#7&35c62e60&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} (GUID_DEVINTERFACE_HID)
+Device Path 2            : \\?\HID#VID_413C&PID_4503&MI_01&Col01#7&35c62e60&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd} (GUID_DEVINTERFACE_MOUSE)
+Kernel Name              : \Device\000000db
+Device ID                : HID\VID_413C&PID_4503&MI_01&COL01\7&35C62E60&0&0000
+Hardware IDs             : HID\VID_413C&PID_4503&REV_0240&MI_01&Col01 HID\VID_413C&PID_4503&MI_01&Col01 HID\VID_413C&UP:0001_U:0002 HID_DEVICE_SYSTEM_MOUSE HID_DEVICE_UP:0001_U:0002 HID_DEVICE
+Driver KeyName           : {4d36e96f-e325-11ce-bfc1-08002be10318}\0007 (GUID_DEVCLASS_MOUSE)
+Driver                   : \SystemRoot\System32\drivers\mouhid.sys (Version: 10.0.26100.1150  Date: 2026-03-07  Company: Microsoft Corporation)
+Driver Inf               : C:\WINDOWS\inf\msmouse.inf
+Legacy BusType           : PNPBus
+Class                    : Mouse
+Class GUID               : {4d36e96f-e325-11ce-bfc1-08002be10318} (GUID_DEVCLASS_MOUSE)
+Service                  : mouhid
+Enumerator               : HID
+Location Info            : -
+Address                  : 1
+Manufacturer Info        : Microsoft
+Capabilities             : 0xA0 (SilentInstall, SurpriseRemovalOK)
+Status                   : 0x0180200A (DN_DRIVER_LOADED, DN_STARTED, DN_DISABLEABLE, DN_NT_ENUMERATOR, DN_NT_DRIVER)
+First Install Date       : 2026-10-04 15:45:48
+Last Arrival Date        : 2026-10-05 08:54:06
+EnhancedPowerMgmtEnabled : 0
+Power State              : D0 (supported: D0, D1, D2, D3, wake from D0, wake from D1, wake from D2)
+
+             +++++++++++++ Mouse Information ++++++++++++++
+Input Data Queue Length  : 2
+Mouse Identifier         : 256
+Number of Buttons        : 5
+Sample Rate              : 0
+
+             ++++++++++++++ HID Information +++++++++++++++
+Manufacturer             : "Dell Computer Corp"
+Product                  : "Dell Universal Receiver"
+Serial Number            : ---
+
+          ---------- Capabilities -----------
+UsagePage                : 0x0001 (Generic Desktop Controls)
+Usage                    : 0x0002 (Mouse)
+InputReportByteLength    : 0x0007 (7 Bytes)
+OutputReportByteLength   : 0x0000 (0 Bytes)
+FeatureReportByteLength  : 0x0000 (0 Bytes)
+NumberLinkCollectionNodes: 0x0002 (2 Nodes)
+NumberInputButtonCaps    : 0x0001 (1 Capability)
+NumberInputValueCaps     : 0x0004 (4 Capabilities)
+NumberInputDataIndices   : 0x0009 (9 Indices)
+NumberOutputButtonCaps   : 0x0000 (0 Capabilities)
+NumberOutputValueCaps    : 0x0000 (0 Capabilities)
+NumberOutputDataIndices  : 0x0000 (0 Indices)
+NumberFeatureButtonCaps  : 0x0000 (0 Capabilities)
+NumberFeatureValueCaps   : 0x0000 (0 Capabilities)
+NumberFeatureDataIndices : 0x0000 (0 Indices)
+
+          -------- Collection[0] ---------
+Collection[0]:
+UsagePage                : 0x0001 (Generic Desktop Controls)
+Usage                    : 0x0002 (Mouse)
+Parent                   : 0x0000 (No Parent)
+Children                 : 0x0001 (1 Child)
+NextSibling              : 0x0000 (No Siblings)
+FirstChild               : 0x0001 (Index 1)
+CollectionType           : 0x00000001 (Application)
+IsAlias                  : 0x00 (no)
+Reserved                 : 0x00000000
+UserContext              : 0x00000000
+
+          -------- Collection[1] ---------
+Collection[1]:
+UsagePage                : 0x0001 (Generic Desktop Controls)
+Usage                    : 0x0001 (Pointer)
+Parent                   : 0x0000 (No Parent)
+Children                 : 0x0000 (No Children)
+NextSibling              : 0x0000 (No Siblings)
+FirstChild               : 0x0000 (No Child)
+CollectionType           : 0x00000000 (Physical)
+IsAlias                  : 0x00 (no)
+Reserved                 : 0x00000000
+UserContext              : 0x00000000
+
+          -------- Input ButtonCaps[0] ---------
+UsagePage                : 0x09 (Buttons)
+ReportID                 : 0x01 (ID 1)
+BitField                 : 0x0002
+ Bit 0                   : 0 (Data)
+ Bit 1                   : 1 (Variable)
+ Bit 2                   : 0 (Absolute)
+ Bit 3                   : 0 (No Wrap)
+ Bit 4                   : 0 (Linear)
+ Bit 5                   : 0 (Preferred State)
+ Bit 6                   : 0 (No Null Position)
+ Bit 7                   : 0 (Reserved)
+ Bit 8                   : 0 (Bit Field)
+ Bits 9..31              : 0 (Reserved)
+LinkCollection           : 0x0001 (Index 1)
+LinkUsage                : 0x0001 (Pointer)
+LinkUsagePage            : 0x0001 (Generic Desktop Controls)
+IsRange                  : 0x01 (yes)
+IsStringRange            : 0x00 (no)
+IsDesignatorRange        : 0x00 (no)
+IsAbsolute               : 0x01 (yes)
+UsageMin                 : 0x0001 (Button 1)
+UsageMax                 : 0x0005 (Button 5)
+DataIndexMin             : 0x0000 (0)
+DataIndexMax             : 0x0004 (4)
+
+          -------- InputCaps[0] ---------
+UsagePage                : 0x0001 (Generic Desktop Controls)
+ReportID                 : 0x01 (ID 1)
+IsAlias                  : 0x00 (no)
+BitField                 : 0x0006
+ Bit 0                   : 0 (Data)
+ Bit 1                   : 1 (Variable)
+ Bit 2                   : 1 (Relative)
+ Bit 3                   : 0 (No Wrap)
+ Bit 4                   : 0 (Linear)
+ Bit 5                   : 0 (Preferred State)
+ Bit 6                   : 0 (No Null Position)
+ Bit 7                   : 0 (Reserved)
+ Bit 8                   : 0 (Bit Field)
+ Bits 9..31              : 0 (Reserved)
+LinkCollection           : 0x0001 (Index 1)
+LinkUsage                : 0x0001 (Pointer)
+LinkUsagePage            : 0x0001 (Generic Desktop Controls)
+IsRange                  : 0x00 (no)
+IsStringRange            : 0x00 (no)
+IsDesignatorRange        : 0x00 (no)
+IsAbsolute               : 0x00 (no)
+HasNull                  : 0x00 (no)
+BitSize                  : 0x000C (12 Bits per data field)
+ReportCount              : 0x0001 (1 Report)
+UnitExp                  : 0x00000000 (0)
+Units                    : 0x00000000 (None)
+LogicalMin               : 0xfffff801 (-2047)
+LogicalMax               : 0x000007ff (+2047)
+PhysicalMin              : 0x00000000 (0)
+PhysicalMax              : 0x00000000 (0)
+Usage                    : 0x0031 (Direction-Y)
+StringIndex              : 0x0000 (No String)
+DesignatorIndex          : 0x0000 (Index 0)
+DataIndex                : 0x0005 (Index 5)
+
+          -------- InputCaps[1] ---------
+UsagePage                : 0x0001 (Generic Desktop Controls)
+ReportID                 : 0x01 (ID 1)
+IsAlias                  : 0x00 (no)
+BitField                 : 0x0006
+ Bit 0                   : 0 (Data)
+ Bit 1                   : 1 (Variable)
+ Bit 2                   : 1 (Relative)
+ Bit 3                   : 0 (No Wrap)
+ Bit 4                   : 0 (Linear)
+ Bit 5                   : 0 (Preferred State)
+ Bit 6                   : 0 (No Null Position)
+ Bit 7                   : 0 (Reserved)
+ Bit 8                   : 0 (Bit Field)
+ Bits 9..31              : 0 (Reserved)
+LinkCollection           : 0x0001 (Index 1)
+LinkUsage                : 0x0001 (Pointer)
+LinkUsagePage            : 0x0001 (Generic Desktop Controls)
+IsRange                  : 0x00 (no)
+IsStringRange            : 0x00 (no)
+IsDesignatorRange        : 0x00 (no)
+IsAbsolute               : 0x00 (no)
+HasNull                  : 0x00 (no)
+BitSize                  : 0x000C (12 Bits per data field)
+ReportCount              : 0x0001 (1 Report)
+UnitExp                  : 0x00000000 (0)
+Units                    : 0x00000000 (None)
+LogicalMin               : 0xfffff801 (-2047)
+LogicalMax               : 0x000007ff (+2047)
+PhysicalMin              : 0x00000000 (0)
+PhysicalMax              : 0x00000000 (0)
+Usage                    : 0x0030 (Direction-X)
+StringIndex              : 0x0000 (No String)
+DesignatorIndex          : 0x0000 (Index 0)
+DataIndex                : 0x0006 (Index 6)
+
+          -------- InputCaps[2] ---------
+UsagePage                : 0x0001 (Generic Desktop Controls)
+ReportID                 : 0x01 (ID 1)
+IsAlias                  : 0x00 (no)
+BitField                 : 0x0006
+ Bit 0                   : 0 (Data)
+ Bit 1                   : 1 (Variable)
+ Bit 2                   : 1 (Relative)
+ Bit 3                   : 0 (No Wrap)
+ Bit 4                   : 0 (Linear)
+ Bit 5                   : 0 (Preferred State)
+ Bit 6                   : 0 (No Null Position)
+ Bit 7                   : 0 (Reserved)
+ Bit 8                   : 0 (Bit Field)
+ Bits 9..31              : 0 (Reserved)
+LinkCollection           : 0x0001 (Index 1)
+LinkUsage                : 0x0001 (Pointer)
+LinkUsagePage            : 0x0001 (Generic Desktop Controls)
+IsRange                  : 0x00 (no)
+IsStringRange            : 0x00 (no)
+IsDesignatorRange        : 0x00 (no)
+IsAbsolute               : 0x00 (no)
+HasNull                  : 0x00 (no)
+BitSize                  : 0x0008 (8 Bits per data field)
+ReportCount              : 0x0001 (1 Report)
+UnitExp                  : 0x00000000 (0)
+Units                    : 0x00000000 (None)
+LogicalMin               : 0xffffff81 (-127)
+LogicalMax               : 0x0000007f (+127)
+PhysicalMin              : 0x00000000 (0)
+PhysicalMax              : 0x00000000 (0)
+Usage                    : 0x0038 (Wheel)
+StringIndex              : 0x0000 (No String)
+DesignatorIndex          : 0x0000 (Index 0)
+DataIndex                : 0x0007 (Index 7)
+
+          -------- InputCaps[3] ---------
+UsagePage                : 0x000C (Consumer)
+ReportID                 : 0x01 (ID 1)
+IsAlias                  : 0x00 (no)
+BitField                 : 0x0006
+ Bit 0                   : 0 (Data)
+ Bit 1                   : 1 (Variable)
+ Bit 2                   : 1 (Relative)
+ Bit 3                   : 0 (No Wrap)
+ Bit 4                   : 0 (Linear)
+ Bit 5                   : 0 (Preferred State)
+ Bit 6                   : 0 (No Null Position)
+ Bit 7                   : 0 (Reserved)
+ Bit 8                   : 0 (Bit Field)
+ Bits 9..31              : 0 (Reserved)
+LinkCollection           : 0x0001 (Index 1)
+LinkUsage                : 0x0001 (Pointer)
+LinkUsagePage            : 0x0001 (Generic Desktop Controls)
+IsRange                  : 0x00 (no)
+IsStringRange            : 0x00 (no)
+IsDesignatorRange        : 0x00 (no)
+IsAbsolute               : 0x00 (no)
+HasNull                  : 0x00 (no)
+BitSize                  : 0x0008 (8 Bits per data field)
+ReportCount              : 0x0001 (1 Report)
+UnitExp                  : 0x00000000 (0)
+Units                    : 0x00000000 (None)
+LogicalMin               : 0xffffff81 (-127)
+LogicalMax               : 0x0000007f (+127)
+PhysicalMin              : 0x00000000 (0)
+PhysicalMax              : 0x00000000 (0)
+Usage                    : 0x0238 (AC Pan)
+StringIndex              : 0x0000 (No String)
+DesignatorIndex          : 0x0000 (Index 0)
+DataIndex                : 0x0008 (Index 8)
