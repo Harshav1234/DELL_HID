@@ -62,3 +62,4 @@ This project is currently intended primarily for Windows systems.
 Linux functionality has been added based on the HID communication implementation; however, device-specific validation is still required before Linux support can be officially confirmed.  
 Windows support status: ✅ Verified  
 Linux support status: ⚠ Verification Required  
+Lnux Support -> Working on fedora
